@@ -1,71 +1,72 @@
 
     header
-    {margin-left:200px;
+    {
         display:flex;
         height: 75px;
-        width: 450px;
         background-color: rgb(211, 217, 223);
+        justify-content: space-between;
     }
-    nav{
+    /* nav{
         display:inline-flex;
-    }
+    } */
    header img{
         width: 30px;
         height: 60px;
-        margin-top: 8px;
    }
 
-   #home{margin-left: 150px;
+   /* #home{margin-left: 150px;
    }
    #contactus{ margin-left: 150px;
-  }
+  } */
 
   main{
-
-    margin-left: auto;
-    margin-right: auto;
+margin-top: 150px;
+  
     }
     main img{
-        height: 130px;
-    margin-left:200px ;}
+        height: 100px;
+        width:100px;
+   
+}
     #name{
     color: rgb(228, 124, 124);
      
     }
     #overview{
-        font-style: ;
-        margin: auto;
-        width: 100%;
+     
+        
         border: 2px solid rgb(159, 167, 159);
         padding: 25px;
     }
     #contact{
         color: rgb(160, 73, 73);
-        margin-left: 24px;
+       
     }
    
      section h3{
-        margin-left: 80px;
         display:grid;
     }
-    label{
-        margin-left: 350px;
-    }
-    input[type=text]{
-        margin-left: 40px;
-    }
-    
-   
-    input[type=submit]{
-        margin-left: 450px;
-    }
-
-    footer {background-color:rgb(180, 171, 171);
-        width: 450px;
-        height: 25px;
-    margin-top: 80px;
-margin-left: 200px;}
-h6{
-    margin-left: 250px ;
-}
   
+
+    footer {
+        background-color:rgb(180, 171, 171);
+        height: 25px;
+}
+
+#card-form{
+    border:1px solid gray;
+    width:300px;
+    padding:10px;
+    margin-left:80px;
+}
+#card-form label {
+   
+}
+.card-header-img{
+    display:flex; 
+}
+.card-header{
+    display: flex;
+    flex-direction:column;
+    margin-left:50px;
+}
