@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="style1.css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
-        
-        <section>
-            <h3>home</h3>
+        <section id="logo" class="firstClass">
+            <img src="img1.png" alt="logo">
         </section>
-        <section>
-            <img src="ali.png">
-        </section>
-        <section>
-            <li><a href="index.html"></li>
-        </section>
-    </header>
+            
+                <h6><a href="./home.html"> Home</a> </h6>
+                <h6><a href="./about.html"> Contact us</a></h6>
+           
+        </header>
     <main>
+
         
-        <section>
-            <h1>Contact Me</h1>
-        </section>
-        <table>
-            <tr>
-                <td>Name</td>
-                <td>Lama Bassam Nazzal</td>
-            </tr>
-            <tr>
-                <td>phne</td>
-                <td>+96796509302</td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td>eng,lamanazzal94@gmail.com</td>
-            </tr>
-        </table>
-        <section>
-             <img src="i2.png">
+            <div class="card-header-img">
+                <img src="img2.png">
+            <section >
+                <h3 id="name">Lama Nazzal </h3>
+                <h3 id="overview">Overview About Yourself</h3>
+                <h3 id="contact">Email : Lama.nazzal@gmail.com</h3>
+            </section class="card-header">
+        </div>
+       
+        <section id="card-form">
+            <label for="fname">Full Name:</label>
+            <input type="text"><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="text"><br><br>
+        
+            <label for="phone">Phone:</label>
+            <input type="text"><br><br>
+       
+            <label for="message">Message:</label>
+            <input type="text"><br><br>
+        
+            <input type="submit" value="Send">
         </section>
     </main>
     <footer>
-        <p> &copy;2023. All Rights Reseved</p>
+        <section>
+            <h6> &copy; All right reserved </h6>
+        </section>
     </footer>
-    <p>index page </p>
 </body>
+
+
 </html>
